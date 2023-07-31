@@ -1,0 +1,29 @@
+Minimum mean total squared error: 0.385597251  (x1_2n.txt)
+    push(x)
+    push(x)
+    add
+    push(x)
+    push(0.83434)
+    push(-1.18286)
+    sub
+    sub
+    add
+    halt
+    div
+    add
+    div
+    sub
+    div
+    sub
+    add
+    sub
+    div
+    push(x)
+    neg
+    halt
+    neg
+(54 best updates, 200020 function calls, time: 226.051 seconds)
+
+Equivalent function:
+    x+x+(x-(0.83434 - -1.18286)) = 3x - 2.0172
+

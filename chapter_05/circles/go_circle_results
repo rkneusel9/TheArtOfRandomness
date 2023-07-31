@@ -1,0 +1,164 @@
+#
+#  file:  go_circle_circle_results
+#
+#  Run searches for 2 through 20 circles and all algorithms
+#
+#  RTK, 25-May-2022
+#  Last update:  12-Nov-2022
+#
+################################################################
+
+mkdir circle_results
+
+python3 circles.py 9 20 30000 bare mt19937 circle_results/bare9
+python3 circles.py 8 20 30000 bare mt19937 circle_results/bare8
+python3 circles.py 7 20 30000 bare mt19937 circle_results/bare7
+python3 circles.py 6 20 30000 bare mt19937 circle_results/bare6
+python3 circles.py 5 20 30000 bare mt19937 circle_results/bare5
+python3 circles.py 4 20 30000 bare mt19937 circle_results/bare4
+python3 circles.py 3 20 30000 bare mt19937 circle_results/bare3
+python3 circles.py 2 20 30000 bare mt19937 circle_results/bare2
+
+python3 circles.py 9 20 30000 de mt19937 circle_results/de9
+python3 circles.py 8 20 30000 de mt19937 circle_results/de8
+python3 circles.py 7 20 30000 de mt19937 circle_results/de7
+python3 circles.py 6 20 30000 de mt19937 circle_results/de6
+python3 circles.py 5 20 30000 de mt19937 circle_results/de5
+python3 circles.py 4 20 30000 de mt19937 circle_results/de4
+python3 circles.py 3 20 30000 de mt19937 circle_results/de3
+python3 circles.py 2 20 30000 de mt19937 circle_results/de2
+
+python3 circles.py 9 20 30000 pso mt19937 circle_results/pso9
+python3 circles.py 8 20 30000 pso mt19937 circle_results/pso8
+python3 circles.py 7 20 30000 pso mt19937 circle_results/pso7
+python3 circles.py 6 20 30000 pso mt19937 circle_results/pso6
+python3 circles.py 5 20 30000 pso mt19937 circle_results/pso5
+python3 circles.py 4 20 30000 pso mt19937 circle_results/pso4
+python3 circles.py 3 20 30000 pso mt19937 circle_results/pso3
+python3 circles.py 2 20 30000 pso mt19937 circle_results/pso2
+
+python3 circles.py 9 20 30000 jaya mt19937 circle_results/jaya9
+python3 circles.py 8 20 30000 jaya mt19937 circle_results/jaya8
+python3 circles.py 7 20 30000 jaya mt19937 circle_results/jaya7
+python3 circles.py 6 20 30000 jaya mt19937 circle_results/jaya6
+python3 circles.py 5 20 30000 jaya mt19937 circle_results/jaya5
+python3 circles.py 4 20 30000 jaya mt19937 circle_results/jaya4
+python3 circles.py 3 20 30000 jaya mt19937 circle_results/jaya3
+python3 circles.py 2 20 30000 jaya mt19937 circle_results/jaya2
+
+python3 circles.py 9 20 30000 gwo mt19937 circle_results/gwo9
+python3 circles.py 8 20 30000 gwo mt19937 circle_results/gwo8
+python3 circles.py 7 20 30000 gwo mt19937 circle_results/gwo7
+python3 circles.py 6 20 30000 gwo mt19937 circle_results/gwo6
+python3 circles.py 5 20 30000 gwo mt19937 circle_results/gwo5
+python3 circles.py 4 20 30000 gwo mt19937 circle_results/gwo4
+python3 circles.py 3 20 30000 gwo mt19937 circle_results/gwo3
+python3 circles.py 2 20 30000 gwo mt19937 circle_results/gwo2
+
+python3 circles.py 9 20 30000 ga mt19937 circle_results/ga9
+python3 circles.py 8 20 30000 ga mt19937 circle_results/ga8
+python3 circles.py 7 20 30000 ga mt19937 circle_results/ga7
+python3 circles.py 6 20 30000 ga mt19937 circle_results/ga6
+python3 circles.py 5 20 30000 ga mt19937 circle_results/ga5
+python3 circles.py 4 20 30000 ga mt19937 circle_results/ga4
+python3 circles.py 3 20 30000 ga mt19937 circle_results/ga3
+python3 circles.py 2 20 30000 ga mt19937 circle_results/ga2
+
+python3 circles.py 9 20 30000 ro mt19937 circle_results/ro9
+python3 circles.py 8 20 30000 ro mt19937 circle_results/ro8
+python3 circles.py 7 20 30000 ro mt19937 circle_results/ro7
+python3 circles.py 6 20 30000 ro mt19937 circle_results/ro6
+python3 circles.py 5 20 30000 ro mt19937 circle_results/ro5
+python3 circles.py 4 20 30000 ro mt19937 circle_results/ro4
+python3 circles.py 3 20 30000 ro mt19937 circle_results/ro3
+python3 circles.py 2 20 30000 ro mt19937 circle_results/ro2
+
+#  for more circles, use a longer search
+python3 circles.py 10 25 50000 ro   pcg64 circle_results/ro10
+python3 circles.py 10 25 50000 ga   pcg64 circle_results/ga10
+python3 circles.py 10 25 50000 de   pcg64 circle_results/de10
+python3 circles.py 10 25 50000 bare pcg64 circle_results/bare10
+python3 circles.py 10 25 50000 pso  pcg64 circle_results/pso10
+python3 circles.py 10 25 50000 gwo  pcg64 circle_results/gwo10
+python3 circles.py 10 25 50000 jaya pcg64 circle_results/jaya10
+
+python3 circles.py 11 25 50000 ro   pcg64 circle_results/ro11
+python3 circles.py 11 25 50000 ga   pcg64 circle_results/ga11
+python3 circles.py 11 25 50000 de   pcg64 circle_results/de11
+python3 circles.py 11 25 50000 bare pcg64 circle_results/bare11
+python3 circles.py 11 25 50000 pso  pcg64 circle_results/pso11
+python3 circles.py 11 25 50000 gwo  pcg64 circle_results/gwo11
+python3 circles.py 11 25 50000 jaya pcg64 circle_results/jaya11
+
+python3 circles.py 12 25 50000 ro   pcg64 circle_results/ro12
+python3 circles.py 12 25 50000 ga   pcg64 circle_results/ga12
+python3 circles.py 12 25 50000 de   pcg64 circle_results/de12
+python3 circles.py 12 25 50000 bare pcg64 circle_results/bare12
+python3 circles.py 12 25 50000 pso  pcg64 circle_results/pso12
+python3 circles.py 12 25 50000 gwo  pcg64 circle_results/gwo12
+python3 circles.py 12 25 50000 jaya pcg64 circle_results/jaya12
+
+python3 circles.py 13 25 50000 ro   pcg64 circle_results/ro13
+python3 circles.py 13 25 50000 ga   pcg64 circle_results/ga13
+python3 circles.py 13 25 50000 de   pcg64 circle_results/de13
+python3 circles.py 13 25 50000 bare pcg64 circle_results/bare13
+python3 circles.py 13 25 50000 pso  pcg64 circle_results/pso13
+python3 circles.py 13 25 50000 gwo  pcg64 circle_results/gwo13
+python3 circles.py 13 25 50000 jaya pcg64 circle_results/jaya13
+
+python3 circles.py 14 25 50000 ro   pcg64 circle_results/ro14
+python3 circles.py 14 25 50000 ga   pcg64 circle_results/ga14
+python3 circles.py 14 25 50000 de   pcg64 circle_results/de14
+python3 circles.py 14 25 50000 bare pcg64 circle_results/bare14
+python3 circles.py 14 25 50000 pso  pcg64 circle_results/pso14
+python3 circles.py 14 25 50000 gwo  pcg64 circle_results/gwo14
+python3 circles.py 14 25 50000 jaya pcg64 circle_results/jaya14
+
+python3 circles.py 15 25 50000 ro   pcg64 circle_results/ro15
+python3 circles.py 15 25 50000 ga   pcg64 circle_results/ga15
+python3 circles.py 15 25 50000 de   pcg64 circle_results/de15
+python3 circles.py 15 25 50000 bare pcg64 circle_results/bare15
+python3 circles.py 15 25 50000 pso  pcg64 circle_results/pso15
+python3 circles.py 15 25 50000 gwo  pcg64 circle_results/gwo15
+python3 circles.py 15 25 50000 jaya pcg64 circle_results/jaya15
+
+python3 circles.py 16 25 50000 ro   pcg64 circle_results/ro16
+python3 circles.py 16 25 50000 ga   pcg64 circle_results/ga16
+python3 circles.py 16 25 50000 de   pcg64 circle_results/de16
+python3 circles.py 16 25 50000 bare pcg64 circle_results/bare16
+python3 circles.py 16 25 50000 pso  pcg64 circle_results/pso16
+python3 circles.py 16 25 50000 gwo  pcg64 circle_results/gwo16
+python3 circles.py 16 25 50000 jaya pcg64 circle_results/jaya16
+
+python3 circles.py 17 25 50000 ro   pcg64 circle_results/ro17
+python3 circles.py 17 25 50000 ga   pcg64 circle_results/ga17
+python3 circles.py 17 25 50000 de   pcg64 circle_results/de17
+python3 circles.py 17 25 50000 bare pcg64 circle_results/bare17
+python3 circles.py 17 25 50000 pso  pcg64 circle_results/pso17
+python3 circles.py 17 25 50000 gwo  pcg64 circle_results/gwo17
+python3 circles.py 17 25 50000 jaya pcg64 circle_results/jaya17
+
+python3 circles.py 18 25 50000 ro   pcg64 circle_results/ro18
+python3 circles.py 18 25 50000 ga   pcg64 circle_results/ga18
+python3 circles.py 18 25 50000 de   pcg64 circle_results/de18
+python3 circles.py 18 25 50000 bare pcg64 circle_results/bare18
+python3 circles.py 18 25 50000 pso  pcg64 circle_results/pso18
+python3 circles.py 18 25 50000 gwo  pcg64 circle_results/gwo18
+python3 circles.py 18 25 50000 jaya pcg64 circle_results/jaya18
+
+python3 circles.py 19 25 50000 ro   pcg64 circle_results/ro19
+python3 circles.py 19 25 50000 ga   pcg64 circle_results/ga19
+python3 circles.py 19 25 50000 de   pcg64 circle_results/de19
+python3 circles.py 19 25 50000 bare pcg64 circle_results/bare19
+python3 circles.py 19 25 50000 pso  pcg64 circle_results/pso19
+python3 circles.py 19 25 50000 gwo  pcg64 circle_results/gwo19
+python3 circles.py 19 25 50000 jaya pcg64 circle_results/jaya19
+
+python3 circles.py 20 25 50000 ro   pcg64 circle_results/ro20
+python3 circles.py 20 25 50000 ga   pcg64 circle_results/ga20
+python3 circles.py 20 25 50000 de   pcg64 circle_results/de20
+python3 circles.py 20 25 50000 bare pcg64 circle_results/bare20
+python3 circles.py 20 25 50000 pso  pcg64 circle_results/pso20
+python3 circles.py 20 25 50000 gwo  pcg64 circle_results/gwo20
+python3 circles.py 20 25 50000 jaya pcg64 circle_results/jaya20
+

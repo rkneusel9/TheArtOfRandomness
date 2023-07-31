@@ -1,0 +1,17 @@
+#
+#  file:  go_towers0
+#
+#  Search all towers for map 00
+#
+#  RTK, 29-May-2022
+#  Last update:  29-May-2022
+#
+################################################################
+
+mkdir results_towers0
+
+python3 cell.py maps/map_00.png towers/towers0 20 600 bare pcg64 results_towers0/map_00_towers0_20_600_bare_pcg64 frames >/dev/null
+python3 cell.py maps/map_00.png towers/towers1 20 600 bare pcg64 results_towers0/map_00_towers1_20_600_bare_pcg64 frames >/dev/null
+python3 cell.py maps/map_00.png towers/towers2 20 600 bare pcg64 results_towers0/map_00_towers2_20_600_bare_pcg64 frames >/dev/null
+python3 cell.py maps/map_00.png towers/towers3 20 600 bare pcg64 results_towers0/map_00_towers3_20_600_bare_pcg64 frames >/dev/null
+

@@ -1,0 +1,29 @@
+Minimum mean total squared error: 0.021789500  (noisy_exp.txt)
+    push(x)
+    push(x)
+    push(x)
+    push(x)
+    mul
+    push(x)
+    mul
+    add
+    div
+    halt
+    mul
+    mod
+    add
+    neg
+    sub
+    mul
+    mul
+    push(18.82099)
+    neg
+    push(13.52634)
+    pow
+    add
+    neg
+(6 best updates, 3000025 function calls, time: 2532.529 seconds)
+
+Equivalent equation:
+	y = x/(x+x^3)
+

@@ -1,0 +1,26 @@
+Minimum mean total squared error: 32813.441451912  (x5_2x_2_600n.txt)
+    push(x)
+    push(4.86203)
+    push(x)
+    push(x)
+    push(x)
+    mul
+    push(x)
+    mul
+    mul
+    neg
+    sub
+    neg
+    neg
+    push(x)
+    push(x)
+    add
+    add
+    mul
+    halt
+    mod
+    div
+    sub
+    div
+(561 best updates, 500025 function calls, time: 816.634 seconds)
+

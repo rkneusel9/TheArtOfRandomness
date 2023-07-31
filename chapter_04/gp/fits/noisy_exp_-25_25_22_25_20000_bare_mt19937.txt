@@ -1,0 +1,29 @@
+Minimum mean total squared error: 0.000801851  (noisy_exp.txt)
+    push(x)
+    push(x)
+    push(x)
+    push(2.80857)
+    push(x)
+    neg
+    push(x)
+    mul
+    pow
+    halt
+    mul
+    div
+    mod
+    sub
+    push(23.89927)
+    mod
+    neg
+    mod
+    mul
+    div
+    neg
+    mod
+    mod
+(241 best updates, 500025 function calls, time: 687.280 seconds)
+
+Equivalent function:
+    x x x 2.80857**(-x^2) = 2.80857**(-x^2)  approximately e^(-x^2)
+

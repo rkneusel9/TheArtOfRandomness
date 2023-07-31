@@ -1,0 +1,29 @@
+Minimum mean total squared error: 276.430712989  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(x)
+    mul
+    push(x)
+    push(-2.19254)
+    add
+    mul
+    push(x)
+    add
+    push(x)
+    add
+    push(x)
+    add
+    push(x)
+    mul
+    halt
+    mod
+    push(-0.44335)
+    pow
+    sub
+    push(x)
+    neg
+    push(9.86462)
+(36 best updates, 375025 function calls, time: 489.667 seconds)
+
+Equivalent function:
+    (x^2*(x-2.19254)+x+x+x)x = (x^3-2.19254x^2+3x)x = x^4 - 2.19254x^3 + 3x^2
+

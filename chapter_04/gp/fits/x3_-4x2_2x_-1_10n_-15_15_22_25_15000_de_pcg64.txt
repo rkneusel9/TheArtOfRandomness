@@ -1,0 +1,31 @@
+Minimum mean total squared error: 39.689178078  (x3_-4x2_2x_-1_10n.txt)
+    push(x)
+    push(x)
+    push(4.12114)
+    push(x)
+    sub
+    mul
+    neg
+    mul
+    halt
+    push(-4.73265)
+    div
+    sub
+    neg
+    push(2.46145)
+    neg
+    sub
+    neg
+    div
+    neg
+    div
+    halt
+    pow
+    push(x)
+(16 best updates, 375025 function calls, time: 438.299 seconds)
+
+Equivalent function:
+    -(x*(4.12114-x))*x = -(4.12114x-x^2)x
+                       = -(4.12114x^2-x^3)
+                       = x^3 - 4.12114x
+

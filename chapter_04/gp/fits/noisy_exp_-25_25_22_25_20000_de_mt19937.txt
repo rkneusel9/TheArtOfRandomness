@@ -1,0 +1,29 @@
+Minimum mean total squared error: 0.000801437  (noisy_exp.txt)
+    push(x)
+    push(x)
+    push(0.35484)
+    push(x)
+    push(x)
+    mul
+    pow
+    halt
+    neg
+    add
+    push(-23.30751)
+    sub
+    halt
+    halt
+    mod
+    add
+    halt
+    pow
+    pow
+    sub
+    neg
+    push(x)
+    neg
+(165 best updates, 500025 function calls, time: 449.955 seconds)
+
+Equivalent function:
+    x x 0.35484^(x^2) = 0.35484^(x^2)  approximately (1/e)^(x^2)
+

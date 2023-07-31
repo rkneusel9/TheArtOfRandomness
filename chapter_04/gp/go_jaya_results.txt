@@ -1,0 +1,135 @@
+
+Minimum mean total squared error: 13099.277412141  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(x)
+    mul
+    push(x)
+    push(x)
+    mul
+    mul
+    halt
+    add
+    mul             equation: (x^2)(x^2) = x^4
+    neg
+    add
+    add
+    neg
+    neg
+    add
+    mod
+    push(2.91314)
+    sub
+    push(x)
+    pow
+    neg
+    mod
+(15 best updates, 375025 function calls, time: 216.789 seconds)
+
+
+Minimum mean total squared error: 12662.127662387  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(x)
+    mul
+    push(3.56112)
+    push(0.54982)
+    pow
+    pow
+    halt
+    pow
+    div             equation: (x^2)^(3.56112^0.54982) = (x^2)^2.01036 = x^4.02072
+    pow
+    div
+    mod
+    mod
+    mod
+    pow
+    add
+    mod
+    neg
+    mod
+    mul
+    push(x)
+    neg
+(14 best updates, 375025 function calls, time: 216.032 seconds)
+
+
+Minimum mean total squared error: 6741.917263589  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(x)
+    push(x)
+    mul
+    sub
+    push(-23.10565)
+    mul
+    halt
+    neg
+    mul             equation: -23.10565*(x - x^2) = 23.10565x^2 - 23.10565x
+    push(x)
+    add
+    mul
+    halt
+    div
+    mod
+    halt
+    mod
+    div
+    push(x)
+    add
+    add
+    mul
+(10 best updates, 375025 function calls, time: 223.217 seconds)
+
+
+Minimum mean total squared error: 15278.485728902  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(21.49103)
+    neg
+    mul
+    push(x)
+    mul
+    neg
+    halt            equation: 21.49103x^2
+    neg
+    pow
+    pow
+    add
+    halt
+    add
+    neg
+    mod
+    sub
+    mod
+    mul
+    halt
+    div
+    neg
+    mod
+(12 best updates, 375025 function calls, time: 209.985 seconds)
+
+
+Minimum mean total squared error: 13099.277412141  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(x)
+    mul
+    push(x)
+    mul
+    push(x)
+    mul
+    neg
+    neg             equation: x^4
+    halt
+    sub
+    div
+    div
+    div
+    push(-4.32117)
+    halt
+    mod
+    push(-2.87467)
+    push(x)
+    mod
+    neg
+    push(x)
+    sub
+(12 best updates, 375025 function calls, time: 218.271 seconds)
+

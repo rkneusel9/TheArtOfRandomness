@@ -1,0 +1,26 @@
+Minimum mean total squared error: 0.057961450  (noisy_exp.txt)
+    push(x)
+    push(-10.94413)
+    add
+    push(18.50058)
+    push(-8.90701)
+    add
+    div
+    push(0.51557)
+    mod
+    push(1.16150)
+    mul
+    halt
+    add
+    push(3.24454)
+    pow
+    pow
+    mul
+    add
+    mod
+    push(14.13864)
+    mod
+    push(x)
+    mul
+(26 best updates, 500025 function calls, time: 655.167 seconds)
+

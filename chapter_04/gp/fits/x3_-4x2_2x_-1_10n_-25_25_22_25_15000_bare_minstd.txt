@@ -1,0 +1,30 @@
+Minimum mean total squared error: 9.152300205  (x3_-4x2_2x_-1_10n.txt)
+    push(x)
+    push(x)
+    push(x)
+    push(-4.07415)
+    push(x)
+    add
+    mul
+    push(1.88629)
+    add
+    mul
+    halt
+    mod
+    pow
+    mod
+    div
+    mod
+    sub
+    sub
+    div
+    add
+    add
+    mul
+    div
+(710 best updates, 375025 function calls, time: 663.972 seconds)
+
+Equivalent function:
+    x*(x*(x-4.07415)+1.88629) = x(x^2-4.07415x+1.88629)
+                              = x^3 -4.07415x^2 + 1.88629x
+

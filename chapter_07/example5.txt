@@ -1,0 +1,2 @@
+python3 walker.py 4 1_500_000 prism 000000 portrait example5.png hotbits_ex5.bin
+

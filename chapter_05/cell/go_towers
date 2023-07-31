@@ -1,0 +1,44 @@
+#
+#  file:  go_towers
+#
+#  Search all towers for map 02
+#
+#  RTK, 29-May-2022
+#  Last update:  29-May-2022
+#
+################################################################
+
+mkdir results_towers
+
+python3 cell.py maps/map_02.png towers/towers0 20 300 bare pcg64 results_towers/map_02_towers0_20_300_bare_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers0 20 300 pso  pcg64 results_towers/map_02_towers0_20_300_pso_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers0 20 300 de   pcg64 results_towers/map_02_towers0_20_300_de_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers0 20 300 gwo  pcg64 results_towers/map_02_towers0_20_300_gwo_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers0 20 300 jaya pcg64 results_towers/map_02_towers0_20_300_jaya_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers0 20 300 ga   pcg64 results_towers/map_02_towers0_20_300_ga_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers0 20 300 ro   pcg64 results_towers/map_02_towers0_20_300_ro_pcg64 frames >/dev/null
+
+python3 cell.py maps/map_02.png towers/towers1 20 300 bare pcg64 results_towers/map_02_towers1_20_300_bare_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers1 20 300 pso  pcg64 results_towers/map_02_towers1_20_300_pso_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers1 20 300 de   pcg64 results_towers/map_02_towers1_20_300_de_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers1 20 300 gwo  pcg64 results_towers/map_02_towers1_20_300_gwo_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers1 20 300 jaya pcg64 results_towers/map_02_towers1_20_300_jaya_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers1 20 300 ga   pcg64 results_towers/map_02_towers1_20_300_ga_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers1 20 300 ro   pcg64 results_towers/map_02_towers1_20_300_ro_pcg64 frames >/dev/null
+
+python3 cell.py maps/map_02.png towers/towers2 20 300 bare pcg64 results_towers/map_02_towers2_20_300_bare_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers2 20 300 pso  pcg64 results_towers/map_02_towers2_20_300_pso_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers2 20 300 de   pcg64 results_towers/map_02_towers2_20_300_de_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers2 20 300 gwo  pcg64 results_towers/map_02_towers2_20_300_gwo_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers2 20 300 jaya pcg64 results_towers/map_02_towers2_20_300_jaya_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers2 20 300 ga   pcg64 results_towers/map_02_towers2_20_300_ga_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers2 20 300 ro   pcg64 results_towers/map_02_towers2_20_300_ro_pcg64 frames >/dev/null
+
+python3 cell.py maps/map_02.png towers/towers3 20 300 bare pcg64 results_towers/map_02_towers3_20_300_bare_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers3 20 300 pso  pcg64 results_towers/map_02_towers3_20_300_pso_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers3 20 300 de   pcg64 results_towers/map_02_towers3_20_300_de_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers3 20 300 gwo  pcg64 results_towers/map_02_towers3_20_300_gwo_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers3 20 300 jaya pcg64 results_towers/map_02_towers3_20_300_jaya_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers3 20 300 ga   pcg64 results_towers/map_02_towers3_20_300_ga_pcg64 frames >/dev/null
+python3 cell.py maps/map_02.png towers/towers3 20 300 ro   pcg64 results_towers/map_02_towers3_20_300_ro_pcg64 frames >/dev/null
+

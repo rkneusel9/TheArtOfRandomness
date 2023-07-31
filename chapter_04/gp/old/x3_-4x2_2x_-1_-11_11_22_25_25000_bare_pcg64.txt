@@ -1,0 +1,26 @@
+Minimum mean total squared error: 3.943393128  (x3_-4x2_2x_-1.txt)
+    push(x)
+    push(-3.60743)
+    push(x)
+    add
+    push(0.45225)
+    sub
+    push(x)
+    mul
+    push(-1.35885)
+    add
+    mul
+    neg
+    halt
+    sub
+    neg
+    pow
+    push(x)
+    push(-7.93998)
+    pow
+    neg
+    mul
+    mod
+    div
+(370 best updates, 625025 function calls, time: 926.835 seconds)
+

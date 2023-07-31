@@ -1,0 +1,31 @@
+#
+#  file:  go_plots
+#
+#  Script to generate circle plots
+#
+#  RTK, 28-May-2022
+#  Last update:  28-May-2022
+#
+################################################################
+
+mkdir plots
+python3 plot_results.py  2 circle_results
+python3 plot_results.py  3 circle_results
+python3 plot_results.py  4 circle_results
+python3 plot_results.py  5 circle_results
+python3 plot_results.py  6 circle_results
+python3 plot_results.py  7 circle_results
+python3 plot_results.py  8 circle_results
+python3 plot_results.py  9 circle_results
+python3 plot_results.py 10 circle_results
+python3 plot_results.py 11 circle_results
+python3 plot_results.py 12 circle_results
+python3 plot_results.py 13 circle_results
+python3 plot_results.py 14 circle_results
+python3 plot_results.py 15 circle_results
+python3 plot_results.py 16 circle_results
+python3 plot_results.py 17 circle_results
+python3 plot_results.py 18 circle_results
+python3 plot_results.py 19 circle_results
+python3 plot_results.py 20 circle_results
+

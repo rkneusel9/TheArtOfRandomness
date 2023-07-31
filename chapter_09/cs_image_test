@@ -1,0 +1,19 @@
+#
+#  file:  cs_image_test
+#
+#  RTK, 21-Jul-2022
+#  Last update: 21-Jul-2022
+#
+################################################################
+mkdir results
+
+python3 cs_image.py images/zelda.png results/zelda01 0.01 0.001 minstd 173205 
+python3 cs_image.py images/zelda.png results/zelda03 0.03 0.001 minstd 173205 
+python3 cs_image.py images/zelda.png results/zelda05 0.05 0.001 minstd 173205 
+python3 cs_image.py images/zelda.png results/zelda07 0.07 0.001 minstd 173205 
+python3 cs_image.py images/zelda.png results/zelda10 0.10 0.001 minstd 173205 
+python3 cs_image.py images/zelda.png results/zelda20 0.20 0.001 minstd 173205 
+python3 cs_image.py images/zelda.png results/zelda40 0.40 0.001 minstd 173205 
+python3 cs_image.py images/zelda.png results/zelda60 0.60 0.001 minstd 173205 
+python3 cs_image.py images/zelda.png results/zelda80 0.80 0.001 minstd 173205 
+

@@ -1,0 +1,26 @@
+Minimum mean total squared error: 0.000000000  (x1.txt)
+    push(x)
+    push(x)
+    push(x)
+    push(x)
+    add
+    push(2.00000)
+    sub
+    push(x)
+    add
+    halt
+    mod
+    halt
+    div
+    neg
+    pow
+    add
+    sub
+    push(x)
+    sub
+    mul
+    mod
+    neg
+    pow
+(91 best updates, 375025 function calls, time: 233.722 seconds)
+

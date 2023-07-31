@@ -1,0 +1,29 @@
+Minimum mean total squared error: 1714.870185764  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(x)
+    push(-2.23835)
+    push(x)
+    add
+    push(x)
+    mul
+    mul
+    push(x)
+    mul
+    halt
+    neg
+    pow
+    halt
+    div
+    add
+    sub
+    mod
+    add
+    sub
+    neg
+    sub
+    div
+(166 best updates, 375025 function calls, time: 498.014 seconds)
+
+Equivalent function:
+    x (x(x-2.23835)x)x = x^3(x-2.23835) = x^4 - 2.23835x^3
+

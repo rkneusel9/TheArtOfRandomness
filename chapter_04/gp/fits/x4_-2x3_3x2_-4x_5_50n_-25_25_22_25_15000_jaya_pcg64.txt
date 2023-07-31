@@ -1,0 +1,29 @@
+Minimum mean total squared error: 7881.567831569  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(x)
+    push(19.36026)
+    push(x)
+    sub
+    mul
+    mul
+    halt
+    div
+    mod
+    add
+    neg
+    mul
+    div
+    div
+    push(x)
+    div
+    div
+    div
+    pow
+    mul
+    sub
+    push(x)
+(8 best updates, 375025 function calls, time: 227.158 seconds)
+
+Equivalent function:
+    xx(19.36026-x) = x^2(19.36026-x) = 19.36026x^2 - x^3
+

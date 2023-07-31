@@ -1,0 +1,29 @@
+Minimum mean total squared error: 0.263703051  (x2_2n.txt)
+    push(x)
+    push(x)
+    mul
+    push(-2.97844)
+    sub
+    push(x)
+    sub
+    push(x)
+    sub
+    halt
+    mul
+    add
+    add
+    pow
+    pow
+    pow
+    div
+    mul
+    pow
+    neg
+    mod
+    sub
+    mul
+(98 best updates, 200020 function calls, time: 290.683 seconds)
+
+Equivalent function:
+    (x^2 - -2.97844) - x) - x) = x^2 - 2x + 2.97844
+

@@ -1,0 +1,26 @@
+Minimum mean total squared error: 3078.992448713  (x4_-2x3_3x2_-4x_5_50n.txt)                                                                                                     
+    push(x)                                                                                                                                                                       
+    push(x)                                                                                                                                                                       
+    push(-25.00000)                                                                                                                                                               
+    mul                                                                                                                                                                           
+    add                                                                                                                                                                           
+    push(x)                                                                                                                                                                       
+    mul                                                                                                                                                                           
+    push(-19.81056)                                                                                                                                                               
+    div                                                                                                                                                                           
+    push(x)
+    push(-10.61414)
+    add
+    push(6.05805)
+    div
+    mul
+    push(-10.22012)
+    push(12.31439)
+    add
+    push(-22.77442)
+    div
+    div
+    push(-23.49937)
+    add
+(194 best updates, 3750025 function calls, time: 3160.565 seconds)
+

@@ -1,0 +1,32 @@
+Minimum mean total squared error: 36.730503715  (x4.txt)
+    push(x)
+    dup
+    dup
+    mul
+    dup
+    dup
+    dup
+    swap
+    dup
+    mul
+    add
+    add
+    add
+    swap
+    swap
+    sub
+    dup
+    neg
+    dup
+    mul
+    drop
+    push(8.04801)
+    add
+    halt
+    swap
+    mod
+    sub
+    pow
+    swap
+(127 best updates, 600030 function calls, time: 460.053 seconds)
+

@@ -1,0 +1,24 @@
+#
+#  file:  russian_dolls_example
+#
+#  Encode and decode multiple files in one image
+#
+#  RTK, 02-Apr-2022
+#  Last update:  02-Apr-2022
+#
+################################################################
+
+#  encode the images
+echo "Encoding..."
+python3 steg_image.py encode kilroy.txt       test_images/apples_32.png   /tmp/encode0.png
+python3 steg_image.py encode /tmp/encode0.png test_images/peppers_128.png /tmp/encode1.png
+python3 steg_image.py encode /tmp/encode1.png test_images/fruit2.png      /tmp/encode2.png
+python3 steg_image.py encode /tmp/encode2.png test_images/tulips.png      russian_dolls.png
+
+#  now, extract the images
+echo "Decoding..."
+python3 steg_image.py decode russian_dolls.png test_images/tulips.png       /tmp/decode0.png
+python3 steg_image.py decode /tmp/decode0.png   test_images/fruit2.png       /tmp/decode1.png
+python3 steg_image.py decode /tmp/decode1.png   test_images/peppers_128.png  /tmp/decode2.png
+python3 steg_image.py decode /tmp/decode2.png   test_images/apples_32.png    output.txt
+

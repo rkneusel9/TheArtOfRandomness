@@ -1,0 +1,28 @@
+Minimum mean total squared error: 0.015820191  (noisy_exp.txt)
+    push(x)
+    neg
+    push(7.95565)
+    push(x)
+    pow
+    push(x)
+    neg
+    pow
+    halt
+    neg
+    neg
+    div
+    div
+    mul
+    div
+    neg
+    neg
+    mod
+    sub
+    mul
+    add
+    add
+    mul
+(12 best updates, 500025 function calls, time: 485.333 seconds)
+
+-x (7.95565^x)^(-x) = 7.95565^(-x^2)
+

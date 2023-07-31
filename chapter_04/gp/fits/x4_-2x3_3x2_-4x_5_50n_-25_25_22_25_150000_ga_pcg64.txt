@@ -1,0 +1,26 @@
+Minimum mean total squared error: 5125.259984859  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(-24.92266)
+    push(x)
+    push(23.29306)
+    mul
+    add
+    mul
+    push(24.97844)
+    sub
+    push(x)
+    sub
+    halt
+    mod
+    add
+    div
+    add
+    pow
+    mul
+    mul
+    pow
+    push(x)
+    pow
+    sub
+(46 best updates, 3750025 function calls, time: 5213.215 seconds)
+

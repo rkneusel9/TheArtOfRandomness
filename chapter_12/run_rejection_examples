@@ -1,0 +1,8 @@
+# Generate the rejection examples
+python3 rejection.py 100000 uniform 4.1 "np.exp(-((x-5)/2)**2)+4*np.exp(-((x+5)/2)**2)" -18_18 reject0 pcg64 1313
+python3 rejection.py 100000 normal_0_1 4 "np.exp(-((x-5)/2)**2)+4*np.exp(-((x+5)/2)**2)" -18_18 reject1 pcg64 1313
+python3 rejection.py 100000 normal_0_20 4.2 "np.exp(-((x-5)/2)**2)+4*np.exp(-((x+5)/2)**2)" -18_18 reject2 pcg64 1313
+python3 rejection.py 100000 normal_-5_2.4 4 "np.exp(-((x-5)/2)**2)+4*np.exp(-((x+5)/2)**2)" -18_18 reject3 pcg64 1313
+python3 rejection.py 100000 uniform 4 "np.exp(-((x-5)/2)**2)+4*np.exp(-((x+5)/2)**2)" -11_4 reject4 pcg64 1313
+python3 rejection.py 100000 uniform 158 "2*x**2+3" -3_8.8 reject5 pcg64 1313
+

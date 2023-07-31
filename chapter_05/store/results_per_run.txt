@@ -1,0 +1,23 @@
+Run 0:                     Run 1:                     Run 2:                     Run 3:                     Run 4:                     Run 5:
+Mean revenue by algorithm: Mean revenue by algorithm: Mean revenue by algorithm: Mean revenue by algorithm: Mean revenue by algorithm: Mean revenue by algorithm:
+    Bare: $1148.59 ( 5.09)     Bare: $1145.59 ( 3.48)     Bare: $1141.56 ( 7.11)     Bare: $1142.24 ( 5.10)     Bare: $1139.11 ( 6.42)     Bare: $1140.24 ( 8.38)
+      DE: $1127.86 ( 8.62)       DE: $1123.24 ( 3.97)       DE: $1122.33 ( 3.99)       DE: $1135.38 ( 6.06)       DE: $1129.94 ( 7.79)       DE: $1127.90 ( 6.88)
+      GA: $1112.06 ( 5.81)       GA: $1127.66 ( 6.76)       GA: $1094.76 ( 8.66)       GA: $1123.93 ( 6.11)       GA: $1119.65 ( 5.13)       GA: $1118.02 ( 7.21)
+     GWO: $1141.01 ( 6.30)      GWO: $1135.52 ( 6.58)      GWO: $1135.07 ( 5.12)      GWO: $1135.47 ( 7.59)      GWO: $1133.82 ( 7.34)      GWO: $1143.94 ( 5.43)
+    Jaya: $1130.88 ( 6.20)     Jaya: $1150.89 ( 7.18)     Jaya: $1141.79 ( 6.92)     Jaya: $1145.14 ( 7.74)     Jaya: $1130.14 ( 7.78)     Jaya: $1133.07 ( 5.94)
+     PSO: $1125.73 ( 6.47)      PSO: $1122.64 ( 8.59)      PSO: $1126.84 ( 7.80)      PSO: $1130.72 ( 6.20)      PSO: $1136.22 ( 5.60)      PSO: $1130.91 ( 7.08)
+      RO: $1023.75 (10.03)       RO: $1009.09 (11.99)       RO: $1027.92 ( 7.08)       RO: $1011.93 ( 9.25)       RO: $1016.74 ( 6.95)       RO: $1011.76 (10.51)
+                                                                                                                                       
+t-test, best vs rest:      t-test, best vs rest:      t-test, best vs rest:      t-test, best vs rest:      t-test, best vs rest:      t-test, best vs rest:
+    Bare vs   DE: 0.05296      Jaya vs Bare: 0.51440      Jaya vs Bare: 0.98223      Jaya vs Bare: 0.75803      Bare vs   DE: 0.37548       GWO vs Bare: 0.71534
+    Bare vs   GA: 0.00017      Jaya vs   DE: 0.00340      Jaya vs   DE: 0.02547      Jaya vs   DE: 0.33399      Bare vs   GA: 0.02932       GWO vs   DE: 0.08378
+    Bare vs  GWO: 0.36133      Jaya vs   GA: 0.02995      Jaya vs   GA: 0.00049      Jaya vs   GA: 0.04533      Bare vs  GWO: 0.59369       GWO vs   GA: 0.01011
+    Bare vs Jaya: 0.04042      Jaya vs  GWO: 0.13176      Jaya vs  GWO: 0.44529      Jaya vs  GWO: 0.38410      Bare vs Jaya: 0.38558       GWO vs Jaya: 0.19340
+    Bare vs  PSO: 0.01244      Jaya vs  PSO: 0.02125      Jaya vs  PSO: 0.16880      Jaya vs  PSO: 0.16335      Bare vs  PSO: 0.73822       GWO vs  PSO: 0.16120
+    Bare vs   RO: 0.00000      Jaya vs   RO: 0.00000      Jaya vs   RO: 0.00000      Jaya vs   RO: 0.00000      Bare vs   RO: 0.00000       GWO vs   RO: 0.00000
+
+Best:
+	Bare  2  ($1148.59)   Looking at t-test results implies that Jaya and Bare essentially the same, GWO slightly less effective, GA and RO the worst, consistently
+	Jaya  3  ($1150.89)
+	GWO   1  ($1143.94)
+

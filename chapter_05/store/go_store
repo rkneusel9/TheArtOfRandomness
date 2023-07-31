@@ -1,0 +1,89 @@
+#
+#  file:  go_store
+#
+#  Run simulations with each algorithm
+#
+#  RTK, 03-Jun-2022
+#  Last update:  03-Jun-2022
+#
+################################################################
+
+mkdir output
+
+python3 store.py 250 20 200 bare pcg64 >>output/bare.txt
+python3 store.py 250 20 200 bare pcg64 >>output/bare.txt
+python3 store.py 250 20 200 bare pcg64 >>output/bare.txt
+python3 store.py 250 20 200 bare pcg64 >>output/bare.txt
+python3 store.py 250 20 200 bare pcg64 >>output/bare.txt
+python3 store.py 250 20 200 bare pcg64 >>output/bare.txt
+python3 store.py 250 20 200 bare pcg64 >>output/bare.txt
+python3 store.py 250 20 200 bare pcg64 >>output/bare.txt
+python3 store.py 250 20 200 bare pcg64 >>output/bare.txt
+python3 store.py 250 20 200 bare pcg64 >>output/bare.txt
+
+python3 store.py 250 20 200 de pcg64 >>output/de.txt
+python3 store.py 250 20 200 de pcg64 >>output/de.txt
+python3 store.py 250 20 200 de pcg64 >>output/de.txt
+python3 store.py 250 20 200 de pcg64 >>output/de.txt
+python3 store.py 250 20 200 de pcg64 >>output/de.txt
+python3 store.py 250 20 200 de pcg64 >>output/de.txt
+python3 store.py 250 20 200 de pcg64 >>output/de.txt
+python3 store.py 250 20 200 de pcg64 >>output/de.txt
+python3 store.py 250 20 200 de pcg64 >>output/de.txt
+python3 store.py 250 20 200 de pcg64 >>output/de.txt
+
+python3 store.py 250 20 200 ga pcg64 >>output/ga.txt
+python3 store.py 250 20 200 ga pcg64 >>output/ga.txt
+python3 store.py 250 20 200 ga pcg64 >>output/ga.txt
+python3 store.py 250 20 200 ga pcg64 >>output/ga.txt
+python3 store.py 250 20 200 ga pcg64 >>output/ga.txt
+python3 store.py 250 20 200 ga pcg64 >>output/ga.txt
+python3 store.py 250 20 200 ga pcg64 >>output/ga.txt
+python3 store.py 250 20 200 ga pcg64 >>output/ga.txt
+python3 store.py 250 20 200 ga pcg64 >>output/ga.txt
+python3 store.py 250 20 200 ga pcg64 >>output/ga.txt
+
+python3 store.py 250 20 200 gwo pcg64 >>output/gwo.txt
+python3 store.py 250 20 200 gwo pcg64 >>output/gwo.txt
+python3 store.py 250 20 200 gwo pcg64 >>output/gwo.txt
+python3 store.py 250 20 200 gwo pcg64 >>output/gwo.txt
+python3 store.py 250 20 200 gwo pcg64 >>output/gwo.txt
+python3 store.py 250 20 200 gwo pcg64 >>output/gwo.txt
+python3 store.py 250 20 200 gwo pcg64 >>output/gwo.txt
+python3 store.py 250 20 200 gwo pcg64 >>output/gwo.txt
+python3 store.py 250 20 200 gwo pcg64 >>output/gwo.txt
+python3 store.py 250 20 200 gwo pcg64 >>output/gwo.txt
+
+python3 store.py 250 20 200 jaya pcg64 >>output/jaya.txt
+python3 store.py 250 20 200 jaya pcg64 >>output/jaya.txt
+python3 store.py 250 20 200 jaya pcg64 >>output/jaya.txt
+python3 store.py 250 20 200 jaya pcg64 >>output/jaya.txt
+python3 store.py 250 20 200 jaya pcg64 >>output/jaya.txt
+python3 store.py 250 20 200 jaya pcg64 >>output/jaya.txt
+python3 store.py 250 20 200 jaya pcg64 >>output/jaya.txt
+python3 store.py 250 20 200 jaya pcg64 >>output/jaya.txt
+python3 store.py 250 20 200 jaya pcg64 >>output/jaya.txt
+python3 store.py 250 20 200 jaya pcg64 >>output/jaya.txt
+
+python3 store.py 250 20 200 pso pcg64 >>output/pso.txt
+python3 store.py 250 20 200 pso pcg64 >>output/pso.txt
+python3 store.py 250 20 200 pso pcg64 >>output/pso.txt
+python3 store.py 250 20 200 pso pcg64 >>output/pso.txt
+python3 store.py 250 20 200 pso pcg64 >>output/pso.txt
+python3 store.py 250 20 200 pso pcg64 >>output/pso.txt
+python3 store.py 250 20 200 pso pcg64 >>output/pso.txt
+python3 store.py 250 20 200 pso pcg64 >>output/pso.txt
+python3 store.py 250 20 200 pso pcg64 >>output/pso.txt
+python3 store.py 250 20 200 pso pcg64 >>output/pso.txt
+
+python3 store.py 250 20 200 ro pcg64 >>output/ro.txt
+python3 store.py 250 20 200 ro pcg64 >>output/ro.txt
+python3 store.py 250 20 200 ro pcg64 >>output/ro.txt
+python3 store.py 250 20 200 ro pcg64 >>output/ro.txt
+python3 store.py 250 20 200 ro pcg64 >>output/ro.txt
+python3 store.py 250 20 200 ro pcg64 >>output/ro.txt
+python3 store.py 250 20 200 ro pcg64 >>output/ro.txt
+python3 store.py 250 20 200 ro pcg64 >>output/ro.txt
+python3 store.py 250 20 200 ro pcg64 >>output/ro.txt
+python3 store.py 250 20 200 ro pcg64 >>output/ro.txt
+

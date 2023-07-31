@@ -1,0 +1,20 @@
+Minimum mean total squared error: 222792.420009821  (x5.txt)
+    push(x)
+    push(6.01496)
+    pow
+    push(20.00000)
+    dup
+    mul
+    push(5.94550)
+    push(x)
+    mul
+    neg
+    dup
+    nop
+    mul
+    add
+    dup
+    drop
+    add
+(102 best updates, 600020 function calls, time: 329.303 seconds)
+

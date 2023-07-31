@@ -1,0 +1,33 @@
+
+-25 25 22 25 150,000 jaya pcg64
+
+Minimum mean total squared error: 3463.114296967  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(x)
+    mul
+    push(13.64617)
+    push(x)
+    neg
+    add
+    mul
+    push(1.09699)
+    pow
+    halt
+    mod
+    sub
+    push(-8.94512)
+    halt
+    neg
+    mod
+    div
+    mod
+    mul
+    add
+    pow
+    halt
+(16 best updates, 3750025 function calls, time: 2131.210 seconds)
+
+Equivalent equation:
+    (x^2(13.64617-x))^1.09699 = (13.64617x^2-x^3)^1.09699
+                              = x^2.19398(13.64617-x)^1.09699
+

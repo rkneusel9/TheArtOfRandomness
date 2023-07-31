@@ -1,0 +1,26 @@
+Minimum mean total squared error: 9.908047156  (x3.txt)
+    push(x)
+    dup
+    neg
+    push(x)
+    push(x)
+    neg
+    drop
+    dup
+    mul
+    add
+    neg
+    neg
+    dup
+    push(x)
+    mul
+    sub
+    neg
+    push(x)
+    sub
+    swap
+    swap
+    add
+    halt
+(125 best updates, 600030 function calls, time: 389.189 seconds)
+

@@ -1,0 +1,11 @@
+mkdir example_melodies
+python3 melody_maker.py 20 example_melodies/ex0 20 12000 pso dorian minstd 161803
+python3 melody_maker.py 20 example_melodies/ex1 20 12000 bare major mt19937 123456
+python3 melody_maker.py 20 example_melodies/ex2 20 12000 de minor pcg64 359
+python3 melody_maker.py 20 example_melodies/ex3 20 12000 jaya lydian mt19937 3141592
+python3 melody_maker.py 20 example_melodies/ex4 20 12000 gwo mixolydian minstd 271828
+python3 melody_maker.py 20 example_melodies/ex5 60 12000 ga phrygian pcg64 1414
+python3 melody_maker.py 20 example_melodies/ex6 20 12000 bare locrian mt19937 112233
+python3 melody_maker.py 20 example_melodies/ex7 20 12000 de blues minstd 123123
+python3 melody_maker.py 20 example_melodies/ex8 20 12000 ro penta minstd 90210
+

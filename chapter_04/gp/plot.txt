@@ -1,0 +1,31 @@
+> python3 -W ignore gp.py data/x1_2n.txt -5 5 22 20 10000 bare minstd plot.png
+
+Minimum mean total squared error: 0.385596890  (x1_2n.txt)
+    push(x)
+    push(x)
+    add
+    push(x)
+    add
+    push(4.82483)
+    push(2.39118)
+    div
+    sub
+    halt
+    add
+    mod
+    div
+    sub
+    sub
+    sub
+    div
+    mul
+    halt
+    push(x)
+    pow
+    add
+    div
+(23 best updates, 200020 function calls, time: 257.076 seconds)
+
+Equivalent equation:
+	x+x+x-(4.82483/2.39118) = 3x - 2.01776
+

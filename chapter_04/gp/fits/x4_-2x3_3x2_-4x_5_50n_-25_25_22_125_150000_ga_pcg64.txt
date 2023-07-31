@@ -1,0 +1,29 @@
+Minimum mean total squared error: 4267.283605644  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(x)
+    push(-24.80411)
+    mul
+    mul
+    neg
+    push(-23.34139)
+    push(x)
+    mul
+    add
+    push(-24.76702)
+    add
+    push(24.99854)
+    sub
+    push(x)
+    neg
+    push(2.32395)
+    div
+    neg
+    neg
+    push(-24.96822)
+    mul
+    sub
+(99 best updates, 18750125 function calls, time: 51348.781 seconds)
+
+24.80411x^2-23.34139x-24.76702-24.99854-(x/2.32395)(24.96822) = 24.80411x^2 - 23.34139x - 49.76556 - 10.74387x
+                                                              = 24.80411x^2 - 34.08526x - 49.76556
+

@@ -1,0 +1,28 @@
+Minimum mean total squared error: 11869.637794955  (x4_-2x3_3x2_-4x_5_50n.txt)
+    push(x)
+    push(x)
+    mul
+    push(2.04948)
+    pow
+    halt
+    push(x)
+    div
+    mod
+    mul
+    pow
+    sub
+    mul
+    add
+    mul
+    mul
+    neg
+    mul
+    sub
+    mod
+    mul
+    neg
+    mod
+(98 best updates, 375025 function calls, time: 359.741 seconds)
+
+(x^2)^2.04948 = x^4.09896
+

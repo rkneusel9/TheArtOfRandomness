@@ -1,0 +1,6 @@
+python3 -W ignore gp.py data/x4_-2x3_3x2_-4x_5_50n.txt -25 25 22 25 15000 jaya pcg64 fits/jaya_run0.png
+python3 -W ignore gp.py data/x4_-2x3_3x2_-4x_5_50n.txt -25 25 22 25 15000 jaya pcg64 fits/jaya_run1.png
+python3 -W ignore gp.py data/x4_-2x3_3x2_-4x_5_50n.txt -25 25 22 25 15000 jaya pcg64 fits/jaya_run2.png
+python3 -W ignore gp.py data/x4_-2x3_3x2_-4x_5_50n.txt -25 25 22 25 15000 jaya pcg64 fits/jaya_run3.png
+python3 -W ignore gp.py data/x4_-2x3_3x2_-4x_5_50n.txt -25 25 22 25 15000 jaya pcg64 fits/jaya_run4.png
+
