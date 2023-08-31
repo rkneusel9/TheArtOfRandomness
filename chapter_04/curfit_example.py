@@ -24,7 +24,7 @@ yf = p[0]*x**2 + p[1]*x + p[2]
 plt.plot(x,y, marker='+', color='k', linestyle='none')
 plt.plot(x,yf, color='k', label="$%0.3f x^2 + %0.3f x + %0.3f$" % (p[0],p[1],p[2]))
 plt.xlabel("$x$")
-plt.xlabel("$y$")
+plt.ylabel("$y$")
 plt.legend(loc="lower left")
 plt.tight_layout(pad=0, w_pad=0, h_pad=0)
 plt.savefig("curfit_example_plot.png", dpi=300)
